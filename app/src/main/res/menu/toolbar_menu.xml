@@ -5,7 +5,9 @@
     <item android:id="@+id/search"
         android:title="Search"
         android:icon="@drawable/baseline_search_24"
-        app:showAsAction="ifRoom|withText"/>
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
 
     <item android:id="@+id/notification"
         android:title="Notification"

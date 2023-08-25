@@ -3,6 +3,13 @@
     <style name="Base.Theme.Navigation_Drawer" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:statusBarColor">#004D40</item>
+    </style>
+
+    <!-- toolbar item color changing -->
+    <style name="MyToolbarStyle" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:tint">@color/white</item>
     </style>
 
     <style name="Theme.Navigation_Drawer" parent="Base.Theme.Navigation_Drawer" />

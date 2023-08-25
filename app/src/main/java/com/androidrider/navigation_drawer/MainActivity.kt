@@ -27,10 +27,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.toolbar.setTitle("Amazon")
+        binding.toolbar.title = "Amazon"
+
 
         fragmentManager = supportFragmentManager
-        // By Default Open Open Home Fragment
+        // By Default Open Home Fragment
         openFragment(HomeFragment())
 
         binding.navigationDrawer.setNavigationItemSelectedListener(this)
